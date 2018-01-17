@@ -7,7 +7,7 @@ target 'MTKit' do
   # use_frameworks!
 
   # Pods for MTKit
-#    pod 'YYCache', '~> 1.0.4'
+  pod 'YYCache', '~> 1.0.4'
 #    pod 'AFNetworking', '~> 3.1.0'
 #    pod 'SVProgressHUD', '~> 2.1.2'
 end
