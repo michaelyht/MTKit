@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24C58063AE7BAD326FF0D80C /* libPods-MTKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC66A0C4BC5D5F739438FBDB /* libPods-MTKit.a */; };
+		FDC6FBDC2005B13800DADE06 /* NSDate+MTExtInternetDate.h in Headers */ = {isa = PBXBuildFile; fileRef = FDC6FBDA2005B13800DADE06 /* NSDate+MTExtInternetDate.h */; };
+		FDC6FBDD2005B13800DADE06 /* NSDate+MTExtInternetDate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC6FBDB2005B13800DADE06 /* NSDate+MTExtInternetDate.m */; };
+		FDC6FBE12005B56000DADE06 /* NSDictionary+MTExt.h in Headers */ = {isa = PBXBuildFile; fileRef = FDC6FBDF2005B56000DADE06 /* NSDictionary+MTExt.h */; };
+		FDC6FBE22005B56000DADE06 /* NSDictionary+MTExt.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC6FBE02005B56000DADE06 /* NSDictionary+MTExt.m */; };
+		FDC6FBE52005B64500DADE06 /* NSDictionary+MTExtUrlParam.h in Headers */ = {isa = PBXBuildFile; fileRef = FDC6FBE32005B64500DADE06 /* NSDictionary+MTExtUrlParam.h */; };
+		FDC6FBE62005B64500DADE06 /* NSDictionary+MTExtUrlParam.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC6FBE42005B64500DADE06 /* NSDictionary+MTExtUrlParam.m */; };
+		FDC6FBEA2005B6FD00DADE06 /* NSNumber+MTExt.h in Headers */ = {isa = PBXBuildFile; fileRef = FDC6FBE82005B6FD00DADE06 /* NSNumber+MTExt.h */; };
+		FDC6FBEB2005B6FD00DADE06 /* NSNumber+MTExt.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC6FBE92005B6FD00DADE06 /* NSNumber+MTExt.m */; };
+		FDC6FBF62005BA9300DADE06 /* NSObject+MTExt.h in Headers */ = {isa = PBXBuildFile; fileRef = FDC6FBF42005BA9300DADE06 /* NSObject+MTExt.h */; };
+		FDC6FBF72005BA9300DADE06 /* NSObject+MTExt.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC6FBF52005BA9300DADE06 /* NSObject+MTExt.m */; };
+		FDC6FBFB2005BB1700DADE06 /* NSString+MtExt.h in Headers */ = {isa = PBXBuildFile; fileRef = FDC6FBF92005BB1700DADE06 /* NSString+MtExt.h */; };
+		FDC6FBFC2005BB1700DADE06 /* NSString+MtExt.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC6FBFA2005BB1700DADE06 /* NSString+MtExt.m */; };
+		FDC6FBFF2005BFA500DADE06 /* NSString+MTExtFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = FDC6FBFD2005BFA500DADE06 /* NSString+MTExtFrame.h */; };
+		FDC6FC002005BFA500DADE06 /* NSString+MTExtFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC6FBFE2005BFA500DADE06 /* NSString+MTExtFrame.m */; };
+		FDC6FC032005C08400DADE06 /* NSString+MTExtHash.h in Headers */ = {isa = PBXBuildFile; fileRef = FDC6FC012005C08400DADE06 /* NSString+MTExtHash.h */; };
+		FDC6FC042005C08400DADE06 /* NSString+MTExtHash.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC6FC022005C08400DADE06 /* NSString+MTExtHash.m */; };
+		FDC6FC072005C13200DADE06 /* NSString+MTExtVertify.h in Headers */ = {isa = PBXBuildFile; fileRef = FDC6FC052005C13200DADE06 /* NSString+MTExtVertify.h */; };
+		FDC6FC082005C13200DADE06 /* NSString+MTExtVertify.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC6FC062005C13200DADE06 /* NSString+MTExtVertify.m */; };
+		FDC6FC0C2005C22800DADE06 /* NSTimer+MTExt.h in Headers */ = {isa = PBXBuildFile; fileRef = FDC6FC0A2005C22800DADE06 /* NSTimer+MTExt.h */; };
+		FDC6FC0D2005C22800DADE06 /* NSTimer+MTExt.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC6FC0B2005C22800DADE06 /* NSTimer+MTExt.m */; };
+		FDF0DA242004B85600E53015 /* MTKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FDF0DA222004B85600E53015 /* MTKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDF0DA312004C62300E53015 /* NSData+MTExt.h in Headers */ = {isa = PBXBuildFile; fileRef = FDF0DA2F2004C62300E53015 /* NSData+MTExt.h */; };
+		FDF0DA322004C62300E53015 /* NSData+MTExt.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF0DA302004C62300E53015 /* NSData+MTExt.m */; };
+		FDF0DA362004C8F100E53015 /* NSDate+MTExtFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = FDF0DA342004C8F100E53015 /* NSDate+MTExtFormat.h */; };
+		FDF0DA372004C8F100E53015 /* NSDate+MTExtFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF0DA352004C8F100E53015 /* NSDate+MTExtFormat.m */; };
+		FDF0DA3A2004C9ED00E53015 /* NSDate+MTExt.h in Headers */ = {isa = PBXBuildFile; fileRef = FDF0DA382004C9ED00E53015 /* NSDate+MTExt.h */; };
+		FDF0DA3B2004C9ED00E53015 /* NSDate+MTExt.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF0DA392004C9ED00E53015 /* NSDate+MTExt.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0256BA0E6A032FFAD3E79954 /* Pods-MTKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MTKit/Pods-MTKit.debug.xcconfig"; sourceTree = "<group>"; };
+		F1DFFB573B6D1B8CD2FE0B6A /* Pods-MTKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-MTKit/Pods-MTKit.release.xcconfig"; sourceTree = "<group>"; };
+		FC66A0C4BC5D5F739438FBDB /* libPods-MTKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MTKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDC6FBDA2005B13800DADE06 /* NSDate+MTExtInternetDate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+MTExtInternetDate.h"; sourceTree = "<group>"; };
+		FDC6FBDB2005B13800DADE06 /* NSDate+MTExtInternetDate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+MTExtInternetDate.m"; sourceTree = "<group>"; };
+		FDC6FBDF2005B56000DADE06 /* NSDictionary+MTExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+MTExt.h"; sourceTree = "<group>"; };
+		FDC6FBE02005B56000DADE06 /* NSDictionary+MTExt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+MTExt.m"; sourceTree = "<group>"; };
+		FDC6FBE32005B64500DADE06 /* NSDictionary+MTExtUrlParam.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+MTExtUrlParam.h"; sourceTree = "<group>"; };
+		FDC6FBE42005B64500DADE06 /* NSDictionary+MTExtUrlParam.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+MTExtUrlParam.m"; sourceTree = "<group>"; };
+		FDC6FBE82005B6FD00DADE06 /* NSNumber+MTExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSNumber+MTExt.h"; sourceTree = "<group>"; };
+		FDC6FBE92005B6FD00DADE06 /* NSNumber+MTExt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+MTExt.m"; sourceTree = "<group>"; };
+		FDC6FBF42005BA9300DADE06 /* NSObject+MTExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+MTExt.h"; sourceTree = "<group>"; };
+		FDC6FBF52005BA9300DADE06 /* NSObject+MTExt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MTExt.m"; sourceTree = "<group>"; };
+		FDC6FBF92005BB1700DADE06 /* NSString+MtExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+MtExt.h"; sourceTree = "<group>"; };
+		FDC6FBFA2005BB1700DADE06 /* NSString+MtExt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+MtExt.m"; sourceTree = "<group>"; };
+		FDC6FBFD2005BFA500DADE06 /* NSString+MTExtFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+MTExtFrame.h"; sourceTree = "<group>"; };
+		FDC6FBFE2005BFA500DADE06 /* NSString+MTExtFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+MTExtFrame.m"; sourceTree = "<group>"; };
+		FDC6FC012005C08400DADE06 /* NSString+MTExtHash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+MTExtHash.h"; sourceTree = "<group>"; };
+		FDC6FC022005C08400DADE06 /* NSString+MTExtHash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+MTExtHash.m"; sourceTree = "<group>"; };
+		FDC6FC052005C13200DADE06 /* NSString+MTExtVertify.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+MTExtVertify.h"; sourceTree = "<group>"; };
+		FDC6FC062005C13200DADE06 /* NSString+MTExtVertify.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+MTExtVertify.m"; sourceTree = "<group>"; };
+		FDC6FC0A2005C22800DADE06 /* NSTimer+MTExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimer+MTExt.h"; sourceTree = "<group>"; };
+		FDC6FC0B2005C22800DADE06 /* NSTimer+MTExt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+MTExt.m"; sourceTree = "<group>"; };
+		FDF0DA1F2004B85600E53015 /* MTKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MTKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF0DA222004B85600E53015 /* MTKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTKit.h; sourceTree = "<group>"; };
+		FDF0DA232004B85600E53015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDF0DA2F2004C62300E53015 /* NSData+MTExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+MTExt.h"; sourceTree = "<group>"; };
+		FDF0DA302004C62300E53015 /* NSData+MTExt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+MTExt.m"; sourceTree = "<group>"; };
+		FDF0DA342004C8F100E53015 /* NSDate+MTExtFormat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+MTExtFormat.h"; sourceTree = "<group>"; };
+		FDF0DA352004C8F100E53015 /* NSDate+MTExtFormat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+MTExtFormat.m"; sourceTree = "<group>"; };
+		FDF0DA382004C9ED00E53015 /* NSDate+MTExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+MTExt.h"; sourceTree = "<group>"; };
+		FDF0DA392004C9ED00E53015 /* NSDate+MTExt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+MTExt.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDF0DA1B2004B85600E53015 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24C58063AE7BAD326FF0D80C /* libPods-MTKit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58CE74F10400C7B1FAD4041D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0256BA0E6A032FFAD3E79954 /* Pods-MTKit.debug.xcconfig */,
+				F1DFFB573B6D1B8CD2FE0B6A /* Pods-MTKit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BF034E540846A5FBAEC12976 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC66A0C4BC5D5F739438FBDB /* libPods-MTKit.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDC6FBDE2005B4DC00DADE06 /* NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				FDC6FBDF2005B56000DADE06 /* NSDictionary+MTExt.h */,
+				FDC6FBE02005B56000DADE06 /* NSDictionary+MTExt.m */,
+				FDC6FBE32005B64500DADE06 /* NSDictionary+MTExtUrlParam.h */,
+				FDC6FBE42005B64500DADE06 /* NSDictionary+MTExtUrlParam.m */,
+			);
+			path = NSDictionary;
+			sourceTree = "<group>";
+		};
+		FDC6FBE72005B6C800DADE06 /* NSNumber */ = {
+			isa = PBXGroup;
+			children = (
+				FDC6FBE82005B6FD00DADE06 /* NSNumber+MTExt.h */,
+				FDC6FBE92005B6FD00DADE06 /* NSNumber+MTExt.m */,
+			);
+			path = NSNumber;
+			sourceTree = "<group>";
+		};
+		FDC6FBEF2005BA5100DADE06 /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				FDC6FBF42005BA9300DADE06 /* NSObject+MTExt.h */,
+				FDC6FBF52005BA9300DADE06 /* NSObject+MTExt.m */,
+			);
+			path = NSObject;
+			sourceTree = "<group>";
+		};
+		FDC6FBF82005BAFF00DADE06 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				FDC6FBF92005BB1700DADE06 /* NSString+MtExt.h */,
+				FDC6FBFA2005BB1700DADE06 /* NSString+MtExt.m */,
+				FDC6FBFD2005BFA500DADE06 /* NSString+MTExtFrame.h */,
+				FDC6FBFE2005BFA500DADE06 /* NSString+MTExtFrame.m */,
+				FDC6FC012005C08400DADE06 /* NSString+MTExtHash.h */,
+				FDC6FC022005C08400DADE06 /* NSString+MTExtHash.m */,
+				FDC6FC052005C13200DADE06 /* NSString+MTExtVertify.h */,
+				FDC6FC062005C13200DADE06 /* NSString+MTExtVertify.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		FDC6FC092005C20B00DADE06 /* NSTimer */ = {
+			isa = PBXGroup;
+			children = (
+				FDC6FC0A2005C22800DADE06 /* NSTimer+MTExt.h */,
+				FDC6FC0B2005C22800DADE06 /* NSTimer+MTExt.m */,
+			);
+			path = NSTimer;
+			sourceTree = "<group>";
+		};
+		FDF0DA152004B85600E53015 = {
+			isa = PBXGroup;
+			children = (
+				FDF0DA212004B85600E53015 /* MTKit */,
+				FDF0DA202004B85600E53015 /* Products */,
+				58CE74F10400C7B1FAD4041D /* Pods */,
+				BF034E540846A5FBAEC12976 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FDF0DA202004B85600E53015 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDF0DA1F2004B85600E53015 /* MTKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDF0DA212004B85600E53015 /* MTKit */ = {
+			isa = PBXGroup;
+			children = (
+				FDF0DA2A2004BB7E00E53015 /* Category */,
+				FDF0DA222004B85600E53015 /* MTKit.h */,
+				FDF0DA232004B85600E53015 /* Info.plist */,
+			);
+			path = MTKit;
+			sourceTree = "<group>";
+		};
+		FDF0DA2A2004BB7E00E53015 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				FDF0DA2B2004BBC300E53015 /* Foundation */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		FDF0DA2B2004BBC300E53015 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				FDC6FC092005C20B00DADE06 /* NSTimer */,
+				FDC6FBF82005BAFF00DADE06 /* NSString */,
+				FDC6FBEF2005BA5100DADE06 /* NSObject */,
+				FDF0DA2E2004BBDC00E53015 /* NSData */,
+				FDF0DA332004C89900E53015 /* NSDate */,
+				FDC6FBDE2005B4DC00DADE06 /* NSDictionary */,
+				FDC6FBE72005B6C800DADE06 /* NSNumber */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		FDF0DA2E2004BBDC00E53015 /* NSData */ = {
+			isa = PBXGroup;
+			children = (
+				FDF0DA2F2004C62300E53015 /* NSData+MTExt.h */,
+				FDF0DA302004C62300E53015 /* NSData+MTExt.m */,
+			);
+			path = NSData;
+			sourceTree = "<group>";
+		};
+		FDF0DA332004C89900E53015 /* NSDate */ = {
+			isa = PBXGroup;
+			children = (
+				FDF0DA382004C9ED00E53015 /* NSDate+MTExt.h */,
+				FDF0DA392004C9ED00E53015 /* NSDate+MTExt.m */,
+				FDF0DA342004C8F100E53015 /* NSDate+MTExtFormat.h */,
+				FDF0DA352004C8F100E53015 /* NSDate+MTExtFormat.m */,
+				FDC6FBDA2005B13800DADE06 /* NSDate+MTExtInternetDate.h */,
+				FDC6FBDB2005B13800DADE06 /* NSDate+MTExtInternetDate.m */,
+			);
+			path = NSDate;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FDF0DA1C2004B85600E53015 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDC6FC0C2005C22800DADE06 /* NSTimer+MTExt.h in Headers */,
+				FDC6FBE52005B64500DADE06 /* NSDictionary+MTExtUrlParam.h in Headers */,
+				FDC6FBFF2005BFA500DADE06 /* NSString+MTExtFrame.h in Headers */,
+				FDC6FBF62005BA9300DADE06 /* NSObject+MTExt.h in Headers */,
+				FDC6FC032005C08400DADE06 /* NSString+MTExtHash.h in Headers */,
+				FDF0DA3A2004C9ED00E53015 /* NSDate+MTExt.h in Headers */,
+				FDC6FC072005C13200DADE06 /* NSString+MTExtVertify.h in Headers */,
+				FDF0DA312004C62300E53015 /* NSData+MTExt.h in Headers */,
+				FDC6FBDC2005B13800DADE06 /* NSDate+MTExtInternetDate.h in Headers */,
+				FDF0DA362004C8F100E53015 /* NSDate+MTExtFormat.h in Headers */,
+				FDC6FBEA2005B6FD00DADE06 /* NSNumber+MTExt.h in Headers */,
+				FDC6FBFB2005BB1700DADE06 /* NSString+MtExt.h in Headers */,
+				FDC6FBE12005B56000DADE06 /* NSDictionary+MTExt.h in Headers */,
+				FDF0DA242004B85600E53015 /* MTKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FDF0DA1E2004B85600E53015 /* MTKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDF0DA272004B85600E53015 /* Build configuration list for PBXNativeTarget "MTKit" */;
+			buildPhases = (
+				87D59A8A5DD67FB089FF9151 /* [CP] Check Pods Manifest.lock */,
+				FDF0DA1A2004B85600E53015 /* Sources */,
+				FDF0DA1B2004B85600E53015 /* Frameworks */,
+				FDF0DA1C2004B85600E53015 /* Headers */,
+				FDF0DA1D2004B85600E53015 /* Resources */,
+				CE59A1C35D4F12EE3711FB8B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MTKit;
+			productName = MTKit;
+			productReference = FDF0DA1F2004B85600E53015 /* MTKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDF0DA162004B85600E53015 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = michaelyu;
+				TargetAttributes = {
+					FDF0DA1E2004B85600E53015 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FDF0DA192004B85600E53015 /* Build configuration list for PBXProject "MTKit" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FDF0DA152004B85600E53015;
+			productRefGroup = FDF0DA202004B85600E53015 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDF0DA1E2004B85600E53015 /* MTKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDF0DA1D2004B85600E53015 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		87D59A8A5DD67FB089FF9151 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MTKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE59A1C35D4F12EE3711FB8B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MTKit/Pods-MTKit-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MTKit/Pods-MTKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDF0DA1A2004B85600E53015 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDC6FBFC2005BB1700DADE06 /* NSString+MtExt.m in Sources */,
+				FDC6FBF72005BA9300DADE06 /* NSObject+MTExt.m in Sources */,
+				FDC6FC042005C08400DADE06 /* NSString+MTExtHash.m in Sources */,
+				FDC6FBDD2005B13800DADE06 /* NSDate+MTExtInternetDate.m in Sources */,
+				FDC6FC082005C13200DADE06 /* NSString+MTExtVertify.m in Sources */,
+				FDF0DA372004C8F100E53015 /* NSDate+MTExtFormat.m in Sources */,
+				FDC6FC002005BFA500DADE06 /* NSString+MTExtFrame.m in Sources */,
+				FDC6FBE22005B56000DADE06 /* NSDictionary+MTExt.m in Sources */,
+				FDC6FBEB2005B6FD00DADE06 /* NSNumber+MTExt.m in Sources */,
+				FDC6FC0D2005C22800DADE06 /* NSTimer+MTExt.m in Sources */,
+				FDC6FBE62005B64500DADE06 /* NSDictionary+MTExtUrlParam.m in Sources */,
+				FDF0DA3B2004C9ED00E53015 /* NSDate+MTExt.m in Sources */,
+				FDF0DA322004C62300E53015 /* NSData+MTExt.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FDF0DA252004B85600E53015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FDF0DA262004B85600E53015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FDF0DA282004B85600E53015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0256BA0E6A032FFAD3E79954 /* Pods-MTKit.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MTKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelyu.mtkit.MTKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDF0DA292004B85600E53015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1DFFB573B6D1B8CD2FE0B6A /* Pods-MTKit.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MTKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelyu.mtkit.MTKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDF0DA192004B85600E53015 /* Build configuration list for PBXProject "MTKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF0DA252004B85600E53015 /* Debug */,
+				FDF0DA262004B85600E53015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDF0DA272004B85600E53015 /* Build configuration list for PBXNativeTarget "MTKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF0DA282004B85600E53015 /* Debug */,
+				FDF0DA292004B85600E53015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDF0DA162004B85600E53015 /* Project object */;
+}
