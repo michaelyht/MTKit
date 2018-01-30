@@ -10,4 +10,6 @@
 
 @interface MTBannerCell : UICollectionViewCell
 
+@property (strong, nonatomic) UIView *containerView;
+
 @end

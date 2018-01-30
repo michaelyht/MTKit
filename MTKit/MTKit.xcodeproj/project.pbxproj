@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		24C58063AE7BAD326FF0D80C /* libPods-MTKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC66A0C4BC5D5F739438FBDB /* libPods-MTKit.a */; };
+		4C092052202048CF003A43EC /* Remark_Banner in Resources */ = {isa = PBXBuildFile; fileRef = 4C092051202048CF003A43EC /* Remark_Banner */; };
+		4C0920542020491D003A43EC /* MTBanner_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C0920532020491D003A43EC /* MTBanner_arrow@2x.png */; };
+		4C0920572020495C003A43EC /* MTBannerCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C0920552020495C003A43EC /* MTBannerCell.h */; };
+		4C0920582020495C003A43EC /* MTBannerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0920562020495C003A43EC /* MTBannerCell.m */; };
+		4C09205F20204A36003A43EC /* MTBannerFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C09205D20204A36003A43EC /* MTBannerFooter.h */; };
+		4C09206020204A36003A43EC /* MTBannerFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C09205E20204A36003A43EC /* MTBannerFooter.m */; };
+		4C09206320204BFD003A43EC /* MTBannerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C09206120204BFD003A43EC /* MTBannerView.h */; };
+		4C09206420204BFD003A43EC /* MTBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C09206220204BFD003A43EC /* MTBannerView.m */; };
 		4C782BEC200F346900DBE3C2 /* NSUserDefaults+MTExt.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C782BEA200F346900DBE3C2 /* NSUserDefaults+MTExt.h */; };
 		4C782BED200F346900DBE3C2 /* NSUserDefaults+MTExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C782BEB200F346900DBE3C2 /* NSUserDefaults+MTExt.m */; };
 		4C782BF2200F35D600DBE3C2 /* CALayer+MTExt.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C782BF0200F35D600DBE3C2 /* CALayer+MTExt.h */; };
@@ -96,6 +104,14 @@
 
 /* Begin PBXFileReference section */
 		0256BA0E6A032FFAD3E79954 /* Pods-MTKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MTKit/Pods-MTKit.debug.xcconfig"; sourceTree = "<group>"; };
+		4C092051202048CF003A43EC /* Remark_Banner */ = {isa = PBXFileReference; lastKnownFileType = text; path = Remark_Banner; sourceTree = "<group>"; };
+		4C0920532020491D003A43EC /* MTBanner_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MTBanner_arrow@2x.png"; sourceTree = "<group>"; };
+		4C0920552020495C003A43EC /* MTBannerCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTBannerCell.h; sourceTree = "<group>"; };
+		4C0920562020495C003A43EC /* MTBannerCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTBannerCell.m; sourceTree = "<group>"; };
+		4C09205D20204A36003A43EC /* MTBannerFooter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTBannerFooter.h; sourceTree = "<group>"; };
+		4C09205E20204A36003A43EC /* MTBannerFooter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTBannerFooter.m; sourceTree = "<group>"; };
+		4C09206120204BFD003A43EC /* MTBannerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTBannerView.h; sourceTree = "<group>"; };
+		4C09206220204BFD003A43EC /* MTBannerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTBannerView.m; sourceTree = "<group>"; };
 		4C782BEA200F346900DBE3C2 /* NSUserDefaults+MTExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+MTExt.h"; sourceTree = "<group>"; };
 		4C782BEB200F346900DBE3C2 /* NSUserDefaults+MTExt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+MTExt.m"; sourceTree = "<group>"; };
 		4C782BEE200F357400DBE3C2 /* MT_FoundationHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MT_FoundationHeader.h; sourceTree = "<group>"; };
@@ -201,6 +217,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C09204E20204822003A43EC /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		4C09204F2020485D003A43EC /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				4C09205020204870003A43EC /* MTBanner */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		4C09205020204870003A43EC /* MTBanner */ = {
+			isa = PBXGroup;
+			children = (
+				4C092051202048CF003A43EC /* Remark_Banner */,
+				4C0920532020491D003A43EC /* MTBanner_arrow@2x.png */,
+				4C0920552020495C003A43EC /* MTBannerCell.h */,
+				4C0920562020495C003A43EC /* MTBannerCell.m */,
+				4C09205D20204A36003A43EC /* MTBannerFooter.h */,
+				4C09205E20204A36003A43EC /* MTBannerFooter.m */,
+				4C09206120204BFD003A43EC /* MTBannerView.h */,
+				4C09206220204BFD003A43EC /* MTBannerView.m */,
+			);
+			path = MTBanner;
+			sourceTree = "<group>";
+		};
 		4C782BE9200F343B00DBE3C2 /* NSUserDefaults */ = {
 			isa = PBXGroup;
 			children = (
@@ -538,6 +584,8 @@
 			isa = PBXGroup;
 			children = (
 				FDF0DA2A2004BB7E00E53015 /* Category */,
+				4C09204E20204822003A43EC /* Core */,
+				4C09204F2020485D003A43EC /* Component */,
 				FDF0DA222004B85600E53015 /* MTKit.h */,
 				FDF0DA232004B85600E53015 /* Info.plist */,
 			);
@@ -606,6 +654,7 @@
 				4C782C50200F45C400DBE3C2 /* UIColor+MTExt.h in Headers */,
 				4C782C34200F42DD00DBE3C2 /* YYCGUtilities.h in Headers */,
 				4C782BEC200F346900DBE3C2 /* NSUserDefaults+MTExt.h in Headers */,
+				4C09206320204BFD003A43EC /* MTBannerView.h in Headers */,
 				4C782C70200F498C00DBE3C2 /* UIApplication+MTExt.h in Headers */,
 				4C782C3C200F43A500DBE3C2 /* UIGestureRecognizer+MTExt.h in Headers */,
 				FDC6FBE52005B64500DADE06 /* NSDictionary+MTExtUrlParam.h in Headers */,
@@ -617,6 +666,7 @@
 				4C782C06200F382B00DBE3C2 /* UIView+MTExtTouchArea.h in Headers */,
 				4C782C6B200F48A700DBE3C2 /* UIBarButtonItem+MTExt.h in Headers */,
 				4C782C5D200F46F200DBE3C2 /* UIButton+MTExtImagePosition.h in Headers */,
+				4C0920572020495C003A43EC /* MTBannerCell.h in Headers */,
 				4C782C24200F3D4200DBE3C2 /* UINavigationBar+MTExtBGColor.h in Headers */,
 				4C782C78200F4B0900DBE3C2 /* YYCategoriesMacro.h in Headers */,
 				FDC6FC032005C08400DADE06 /* NSString+MTExtHash.h in Headers */,
@@ -638,6 +688,7 @@
 				4C782C15200F3B1200DBE3C2 /* UITableView+MTExt.h in Headers */,
 				4C782C37200F433300DBE3C2 /* UIImage+MTExtEffect.h in Headers */,
 				FDC6FBEA2005B6FD00DADE06 /* NSNumber+MTExt.h in Headers */,
+				4C09205F20204A36003A43EC /* MTBannerFooter.h in Headers */,
 				FDC6FBFB2005BB1700DADE06 /* NSString+MtExt.h in Headers */,
 				4C782C59200F46BB00DBE3C2 /* UIButton+MTExtCountDown.h in Headers */,
 				4C782C0B200F38E800DBE3C2 /* UITextView+MTExt.h in Headers */,
@@ -708,6 +759,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C0920542020491D003A43EC /* MTBanner_arrow@2x.png in Resources */,
+				4C092052202048CF003A43EC /* Remark_Banner in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -764,6 +817,7 @@
 				4C782C1B200F3C7D00DBE3C2 /* UIScrollView+MTExt.m in Sources */,
 				FDC6FBDD2005B13800DADE06 /* NSDate+MTExtInternetDate.m in Sources */,
 				4C782C0C200F38E800DBE3C2 /* UITextView+MTExt.m in Sources */,
+				4C09206420204BFD003A43EC /* MTBannerView.m in Sources */,
 				4C782C67200F485A00DBE3C2 /* UIBezierPath+MTExt.m in Sources */,
 				4C782C5E200F46F200DBE3C2 /* UIButton+MTExtImagePosition.m in Sources */,
 				FDC6FC082005C13200DADE06 /* NSString+MTExtVertify.m in Sources */,
@@ -789,8 +843,10 @@
 				4C782C47200F44AD00DBE3C2 /* UIDevice+MTExt.m in Sources */,
 				4C782C3D200F43A500DBE3C2 /* UIGestureRecognizer+MTExt.m in Sources */,
 				FDC6FBE62005B64500DADE06 /* NSDictionary+MTExtUrlParam.m in Sources */,
+				4C0920582020495C003A43EC /* MTBannerCell.m in Sources */,
 				4C782C2A200F3DB100DBE3C2 /* UIImageView+MTExt.m in Sources */,
 				FDF0DA3B2004C9ED00E53015 /* NSDate+MTExt.m in Sources */,
+				4C09206020204A36003A43EC /* MTBannerFooter.m in Sources */,
 				FDF0DA322004C62300E53015 /* NSData+MTExt.m in Sources */,
 				4C782C42200F443000DBE3C2 /* UIFont+MTExt.m in Sources */,
 				4C782C11200F399F00DBE3C2 /* UITextField+MTExt.m in Sources */,
