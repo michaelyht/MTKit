@@ -16,6 +16,11 @@
 		4C09206020204A36003A43EC /* MTBannerFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C09205E20204A36003A43EC /* MTBannerFooter.m */; };
 		4C09206320204BFD003A43EC /* MTBannerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C09206120204BFD003A43EC /* MTBannerView.h */; };
 		4C09206420204BFD003A43EC /* MTBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C09206220204BFD003A43EC /* MTBannerView.m */; };
+		4C09206820204F46003A43EC /* MTQRCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C09206620204F46003A43EC /* MTQRCode.h */; };
+		4C09206920204F46003A43EC /* MTQRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C09206720204F46003A43EC /* MTQRCode.m */; };
+		4C09206C20204FAD003A43EC /* MTScanBoxLine.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C09206A20204FAD003A43EC /* MTScanBoxLine.h */; };
+		4C09206D20204FAD003A43EC /* MTScanBoxLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C09206B20204FAD003A43EC /* MTScanBoxLine.m */; };
+		4C09206F20205367003A43EC /* MT_ComponetHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C09206E20205367003A43EC /* MT_ComponetHeader.h */; };
 		4C782BEC200F346900DBE3C2 /* NSUserDefaults+MTExt.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C782BEA200F346900DBE3C2 /* NSUserDefaults+MTExt.h */; };
 		4C782BED200F346900DBE3C2 /* NSUserDefaults+MTExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C782BEB200F346900DBE3C2 /* NSUserDefaults+MTExt.m */; };
 		4C782BF2200F35D600DBE3C2 /* CALayer+MTExt.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C782BF0200F35D600DBE3C2 /* CALayer+MTExt.h */; };
@@ -112,6 +117,11 @@
 		4C09205E20204A36003A43EC /* MTBannerFooter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTBannerFooter.m; sourceTree = "<group>"; };
 		4C09206120204BFD003A43EC /* MTBannerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTBannerView.h; sourceTree = "<group>"; };
 		4C09206220204BFD003A43EC /* MTBannerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTBannerView.m; sourceTree = "<group>"; };
+		4C09206620204F46003A43EC /* MTQRCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTQRCode.h; sourceTree = "<group>"; };
+		4C09206720204F46003A43EC /* MTQRCode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTQRCode.m; sourceTree = "<group>"; };
+		4C09206A20204FAD003A43EC /* MTScanBoxLine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTScanBoxLine.h; sourceTree = "<group>"; };
+		4C09206B20204FAD003A43EC /* MTScanBoxLine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTScanBoxLine.m; sourceTree = "<group>"; };
+		4C09206E20205367003A43EC /* MT_ComponetHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MT_ComponetHeader.h; sourceTree = "<group>"; };
 		4C782BEA200F346900DBE3C2 /* NSUserDefaults+MTExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+MTExt.h"; sourceTree = "<group>"; };
 		4C782BEB200F346900DBE3C2 /* NSUserDefaults+MTExt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+MTExt.m"; sourceTree = "<group>"; };
 		4C782BEE200F357400DBE3C2 /* MT_FoundationHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MT_FoundationHeader.h; sourceTree = "<group>"; };
@@ -227,7 +237,9 @@
 		4C09204F2020485D003A43EC /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				4C09206E20205367003A43EC /* MT_ComponetHeader.h */,
 				4C09205020204870003A43EC /* MTBanner */,
+				4C09206520204EE5003A43EC /* MTQRCode */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -245,6 +257,17 @@
 				4C09206220204BFD003A43EC /* MTBannerView.m */,
 			);
 			path = MTBanner;
+			sourceTree = "<group>";
+		};
+		4C09206520204EE5003A43EC /* MTQRCode */ = {
+			isa = PBXGroup;
+			children = (
+				4C09206620204F46003A43EC /* MTQRCode.h */,
+				4C09206720204F46003A43EC /* MTQRCode.m */,
+				4C09206A20204FAD003A43EC /* MTScanBoxLine.h */,
+				4C09206B20204FAD003A43EC /* MTScanBoxLine.m */,
+			);
+			path = MTQRCode;
 			sourceTree = "<group>";
 		};
 		4C782BE9200F343B00DBE3C2 /* NSUserDefaults */ = {
@@ -672,6 +695,7 @@
 				FDC6FC032005C08400DADE06 /* NSString+MTExtHash.h in Headers */,
 				FDF0DA3A2004C9ED00E53015 /* NSDate+MTExt.h in Headers */,
 				4C782C2E200F3F7100DBE3C2 /* UIImage+MTExt.h in Headers */,
+				4C09206820204F46003A43EC /* MTQRCode.h in Headers */,
 				4C782BF8200F362900DBE3C2 /* UILabel+MTExt.h in Headers */,
 				FDC6FC072005C13200DADE06 /* NSString+MTExtVertify.h in Headers */,
 				FDF0DA312004C62300E53015 /* NSData+MTExt.h in Headers */,
@@ -688,11 +712,13 @@
 				4C782C15200F3B1200DBE3C2 /* UITableView+MTExt.h in Headers */,
 				4C782C37200F433300DBE3C2 /* UIImage+MTExtEffect.h in Headers */,
 				FDC6FBEA2005B6FD00DADE06 /* NSNumber+MTExt.h in Headers */,
+				4C09206F20205367003A43EC /* MT_ComponetHeader.h in Headers */,
 				4C09205F20204A36003A43EC /* MTBannerFooter.h in Headers */,
 				FDC6FBFB2005BB1700DADE06 /* NSString+MtExt.h in Headers */,
 				4C782C59200F46BB00DBE3C2 /* UIButton+MTExtCountDown.h in Headers */,
 				4C782C0B200F38E800DBE3C2 /* UITextView+MTExt.h in Headers */,
 				FDC6FBE12005B56000DADE06 /* NSDictionary+MTExt.h in Headers */,
+				4C09206C20204FAD003A43EC /* MTScanBoxLine.h in Headers */,
 				4C782C02200F379F00DBE3C2 /* UIView+MTExt.h in Headers */,
 				4C782C29200F3DB100DBE3C2 /* UIImageView+MTExt.h in Headers */,
 				FDF0DA242004B85600E53015 /* MTKit.h in Headers */,
@@ -814,6 +840,7 @@
 				FDC6FBF72005BA9300DADE06 /* NSObject+MTExt.m in Sources */,
 				4C782C51200F45C400DBE3C2 /* UIColor+MTExt.m in Sources */,
 				FDC6FC042005C08400DADE06 /* NSString+MTExtHash.m in Sources */,
+				4C09206920204F46003A43EC /* MTQRCode.m in Sources */,
 				4C782C1B200F3C7D00DBE3C2 /* UIScrollView+MTExt.m in Sources */,
 				FDC6FBDD2005B13800DADE06 /* NSDate+MTExtInternetDate.m in Sources */,
 				4C782C0C200F38E800DBE3C2 /* UITextView+MTExt.m in Sources */,
@@ -842,6 +869,7 @@
 				4C782C16200F3B1200DBE3C2 /* UITableView+MTExt.m in Sources */,
 				4C782C47200F44AD00DBE3C2 /* UIDevice+MTExt.m in Sources */,
 				4C782C3D200F43A500DBE3C2 /* UIGestureRecognizer+MTExt.m in Sources */,
+				4C09206D20204FAD003A43EC /* MTScanBoxLine.m in Sources */,
 				FDC6FBE62005B64500DADE06 /* NSDictionary+MTExtUrlParam.m in Sources */,
 				4C0920582020495C003A43EC /* MTBannerCell.m in Sources */,
 				4C782C2A200F3DB100DBE3C2 /* UIImageView+MTExt.m in Sources */,
