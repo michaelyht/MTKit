@@ -270,6 +270,21 @@
 			path = MTQRCode;
 			sourceTree = "<group>";
 		};
+		4C092070202056D9003A43EC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4C092071202056F4003A43EC /* UserInfoUtil */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		4C092071202056F4003A43EC /* UserInfoUtil */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UserInfoUtil;
+			sourceTree = "<group>";
+		};
 		4C782BE9200F343B00DBE3C2 /* NSUserDefaults */ = {
 			isa = PBXGroup;
 			children = (
@@ -608,6 +623,7 @@
 			children = (
 				FDF0DA2A2004BB7E00E53015 /* Category */,
 				4C09204E20204822003A43EC /* Core */,
+				4C092070202056D9003A43EC /* Utils */,
 				4C09204F2020485D003A43EC /* Component */,
 				FDF0DA222004B85600E53015 /* MTKit.h */,
 				FDF0DA232004B85600E53015 /* Info.plist */,
