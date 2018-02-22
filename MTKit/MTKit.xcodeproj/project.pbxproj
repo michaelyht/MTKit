@@ -295,7 +295,7 @@
 			children = (
 				4CB458EF203E5C8E00CA8D38 /* Action */,
 				4CB458EE203E5C7400CA8D38 /* Service */,
-				4CB458ED203E5C5F00CA8D38 /* TTMediator */,
+				4CB458ED203E5C5F00CA8D38 /* MTMediator */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -650,7 +650,7 @@
 			path = Macros;
 			sourceTree = "<group>";
 		};
-		4CB458ED203E5C5F00CA8D38 /* TTMediator */ = {
+		4CB458ED203E5C5F00CA8D38 /* MTMediator */ = {
 			isa = PBXGroup;
 			children = (
 				4CB458F4203E5D7C00CA8D38 /* MTMediator.h */,
@@ -658,7 +658,7 @@
 				4CB458F0203E5CEA00CA8D38 /* UIViewController+MTExt2Parameter.h */,
 				4CB458F1203E5CEA00CA8D38 /* UIViewController+MTExt2Parameter.m */,
 			);
-			path = TTMediator;
+			path = MTMediator;
 			sourceTree = "<group>";
 		};
 		4CB458EE203E5C7400CA8D38 /* Service */ = {
