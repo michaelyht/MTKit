@@ -11,6 +11,8 @@
 
 #import "MTBannerView.h"
 
+//二维码
 #import "MTQRCode.h"
+#import "MTQRCodeUtil.h"
 
 #endif /* MT_ComponetHeader_h */
