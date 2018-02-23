@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.author             = { "michaelyht" => "htlingday@hotmail.com" }
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.ios.deployment_target = "9.0"
+  s.ios.deployment_target = "8.0"
 
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -47,7 +47,7 @@ Pod::Spec.new do |s|
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-     s.subspec 'Category' do |ss|
+    s.subspec 'Category' do |ss|
         ss.source_files = 'MTKit/MTKit/Category/*.h'
         ss.dependency 'YYCache', '~> 1.0.4'
             ss.subspec 'Foundation' do |sss|
@@ -147,6 +147,9 @@ Pod::Spec.new do |s|
                 sss.subspec 'UIViewController' do |ssss|
                     ssss.source_files = 'MTKit/MTKit/Category/UIKit/UIViewController/*'
                 end
+                sss.subspec 'UILabel' do |ssss|
+                    ssss.source_files = 'MTKit/MTKit/Category/UIKit/UILabel/*'
+                end
             end
 
             ss.subspec 'YYUtils' do |sss|
@@ -182,6 +185,7 @@ Pod::Spec.new do |s|
             sss.source_files = 'MTKit/MTKit/Utils/UserInfoUtil/*'
             sss.dependency 'MTKit/Core/Action/Constants'
         end
+
     end
 
     s.subspec 'Core' do |ss|
@@ -222,5 +226,4 @@ Pod::Spec.new do |s|
             sss.frameworks = 'AVFoundation'
         end
     end
-
 end
