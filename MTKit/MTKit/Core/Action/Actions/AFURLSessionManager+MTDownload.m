@@ -10,7 +10,7 @@
 
 @implementation AFURLSessionManager (MTDownload)
 
-- (NSURLSessionDownloadTask *)tt_downloadTaskWithRequest:(NSURLRequest *)request
+- (NSURLSessionDownloadTask *)mt_downloadTaskWithRequest:(NSURLRequest *)request
                                                 progress:(nullable void (^)(NSProgress *downloadProgress))downloadProgressBlock
                                              destination:(nullable NSURL * (^)(NSURL *targetPath, NSURLResponse *response))destination
                                        completionHandler:(nullable void (^)(NSURLResponse *response, NSURL * _Nullable filePath, NSURLSessionDownloadTask *downloadTask, NSError * _Nullable error))completionHandler {

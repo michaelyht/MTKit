@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.author             = { "michaelyht" => "htlingday@hotmail.com" }
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.ios.deployment_target = "8.0"
+  s.ios.deployment_target = "9.0"
 
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
