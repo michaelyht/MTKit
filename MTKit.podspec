@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.version      = "0.0.1"
   s.summary      = "MTKit is ios HT Project"
   s.description  = <<-DESC
-             0.0.1 项目常用框架，测试阶段、使用问题反馈至下面邮箱htlingday@hotmail.com
+             0.0.1项目常用框架，测试阶段、使用问题反馈至下面邮箱htlingday@hotmail.com
                    DESC
 
   s.homepage     = "https://github.com/michaelyht/MTKit"

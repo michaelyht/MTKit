@@ -12,7 +12,6 @@
 #import "MTAlertUtil.h"
 #import "UserInfoUtil.h"
 #import "AppInfoUtil.h"
-#import "MTQRCodeUtil.h"
 #import "MTDataSource.h"
 #import "MTProgressHUD.h"
 
