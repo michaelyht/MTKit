@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
 
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.source       = { :git => "https://github.com/michaelyht/MTKit.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/michaelyht/MTKit.git", :tag => "#{s.versTQRCodeUtilion}" }
 
   s.requires_arc = true
 
@@ -177,6 +177,9 @@ Pod::Spec.new do |s|
         ss.subspec 'AppInfoUtil' do |sss|
             sss.source_files = 'MTKit/MTKit/Utils/AppInfoUtil/*'
             sss.dependency 'AFNetworking', '~> 3.1.0'
+        end
+        ss.subspec 'MTQRCodeUtil' do |sss|
+            sss.source_files = 'MTKit/MTKit/Utils/MTQRCodeUtil/*'
         end
         ss.subspec 'MTTableViewUtil' do |sss|
             sss.source_files = 'MTKit/MTKit/Utils/MTTableViewUtil/*'

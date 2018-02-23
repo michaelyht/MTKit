@@ -332,8 +332,6 @@
 				4C09206720204F46003A43EC /* MTQRCode.m */,
 				4C09206A20204FAD003A43EC /* MTScanBoxLine.h */,
 				4C09206B20204FAD003A43EC /* MTScanBoxLine.m */,
-				4CB458D6203E548800CA8D38 /* MTQRCodeUtil.h */,
-				4CB458D7203E548800CA8D38 /* MTQRCodeUtil.m */,
 			);
 			path = MTQRCode;
 			sourceTree = "<group>";
@@ -342,6 +340,7 @@
 			isa = PBXGroup;
 			children = (
 				4CB458E9203E5B1400CA8D38 /* MT_Utils_Header.h */,
+				4CEE1B37204008E600F96185 /* MTQRCodeUtil */,
 				4CB458E4203E59B700CA8D38 /* AppInfoUtil */,
 				4CB458DF203E579700CA8D38 /* MTAlertUtil */,
 				4CB458DA203E551800CA8D38 /* MTProgressHUD */,
@@ -711,6 +710,15 @@
 				4CB4590C203E66E300CA8D38 /* MTHttpAction.m */,
 			);
 			path = Actions;
+			sourceTree = "<group>";
+		};
+		4CEE1B37204008E600F96185 /* MTQRCodeUtil */ = {
+			isa = PBXGroup;
+			children = (
+				4CB458D6203E548800CA8D38 /* MTQRCodeUtil.h */,
+				4CB458D7203E548800CA8D38 /* MTQRCodeUtil.m */,
+			);
+			path = MTQRCodeUtil;
 			sourceTree = "<group>";
 		};
 		58CE74F10400C7B1FAD4041D /* Pods */ = {
