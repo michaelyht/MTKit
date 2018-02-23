@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
 
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.source       = { :git => "https://github.com/michaelyht/MTKit.git", :tag => "#{s.versTQRCodeUtilion}" }
+  s.source       = { :git => "https://github.com/michaelyht/MTKit.git", :tag => "#{s.version}" }
 
   s.requires_arc = true
 
