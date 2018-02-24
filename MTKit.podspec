@@ -3,10 +3,10 @@ Pod::Spec.new do |s|
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   s.name         = "MTKit"
-  s.version      = "0.0.1"
+  s.version      = "0.0.11"
   s.summary      = "MTKit is ios HT Project"
   s.description  = <<-DESC
-             0.0.1项目常用框架，测试阶段、使用问题反馈至下面邮箱htlingday@hotmail.com
+             为MTExtBGColor 添加overlay属性
                    DESC
 
   s.homepage     = "https://github.com/michaelyht/MTKit"
