@@ -45,11 +45,11 @@ static MTConstants *sharedInstance = nil;
 - (id)init {
     self = [super init];
     if (self) {
-        NSString *apiFilePath = [[NSBundle mainBundle] pathForResource:@"TQ_Config" ofType:@"plist"];
+        NSString *apiFilePath = [[NSBundle mainBundle] pathForResource:@"MT_Config" ofType:@"plist"];
         NSMutableDictionary *apiData = [[NSMutableDictionary alloc] initWithContentsOfFile:apiFilePath];
         [self setApiDataOfDic:apiData[@"APIRetrunInfo"]];
         
-        NSString *signFilePath = [[NSBundle mainBundle] pathForResource:@"TQ_Signature" ofType:@"plist"];
+        NSString *signFilePath = [[NSBundle mainBundle] pathForResource:@"MT_Signature" ofType:@"plist"];
         NSMutableDictionary *signData = [[NSMutableDictionary alloc] initWithContentsOfFile:signFilePath];
         [self setSignatureDataOfDic:signData];
     }
