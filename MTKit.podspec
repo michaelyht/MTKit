@@ -172,11 +172,11 @@ Pod::Spec.new do |s|
         end
         ss.subspec 'MTProgressHUD' do |sss|
         sss.source_files = 'MTKit/MTKit/Utils/MTProgressHUD/*.{h,m}'
-            sss.dependency 'SVProgressHUD', '~> 2.1.2'
+            sss.dependency 'SVProgressHUD', '~> 2.2.5'
         end
         ss.subspec 'AppInfoUtil' do |sss|
             sss.source_files = 'MTKit/MTKit/Utils/AppInfoUtil/*'
-            sss.dependency 'AFNetworking', '~> 3.1.0'
+            sss.dependency 'AFNetworking', '~> 3.2.0'
         end
         ss.subspec 'MTQRCodeUtil' do |sss|
             sss.source_files = 'MTKit/MTKit/Utils/MTQRCodeUtil/*'
@@ -192,7 +192,7 @@ Pod::Spec.new do |s|
     end
 
     s.subspec 'Core' do |ss|
-        ss.dependency 'AFNetworking', '~> 3.1.0'
+        ss.dependency 'AFNetworking', '~> 3.2.0'
         ss.subspec 'Action' do |sss|
 
             sss.subspec 'Reachability' do |ssss|
