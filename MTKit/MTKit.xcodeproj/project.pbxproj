@@ -118,8 +118,8 @@
 		FDC6FBEB2005B6FD00DADE06 /* NSNumber+MTExt.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC6FBE92005B6FD00DADE06 /* NSNumber+MTExt.m */; };
 		FDC6FBF62005BA9300DADE06 /* NSObject+MTExt.h in Headers */ = {isa = PBXBuildFile; fileRef = FDC6FBF42005BA9300DADE06 /* NSObject+MTExt.h */; };
 		FDC6FBF72005BA9300DADE06 /* NSObject+MTExt.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC6FBF52005BA9300DADE06 /* NSObject+MTExt.m */; };
-		FDC6FBFB2005BB1700DADE06 /* NSString+MtExt.h in Headers */ = {isa = PBXBuildFile; fileRef = FDC6FBF92005BB1700DADE06 /* NSString+MtExt.h */; };
-		FDC6FBFC2005BB1700DADE06 /* NSString+MtExt.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC6FBFA2005BB1700DADE06 /* NSString+MtExt.m */; };
+		FDC6FBFB2005BB1700DADE06 /* NSString+MTExt.h in Headers */ = {isa = PBXBuildFile; fileRef = FDC6FBF92005BB1700DADE06 /* NSString+MTExt.h */; };
+		FDC6FBFC2005BB1700DADE06 /* NSString+MTExt.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC6FBFA2005BB1700DADE06 /* NSString+MTExt.m */; };
 		FDC6FBFF2005BFA500DADE06 /* NSString+MTExtFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = FDC6FBFD2005BFA500DADE06 /* NSString+MTExtFrame.h */; };
 		FDC6FC002005BFA500DADE06 /* NSString+MTExtFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC6FBFE2005BFA500DADE06 /* NSString+MTExtFrame.m */; };
 		FDC6FC032005C08400DADE06 /* NSString+MTExtHash.h in Headers */ = {isa = PBXBuildFile; fileRef = FDC6FC012005C08400DADE06 /* NSString+MTExtHash.h */; };
@@ -257,8 +257,8 @@
 		FDC6FBE92005B6FD00DADE06 /* NSNumber+MTExt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+MTExt.m"; sourceTree = "<group>"; };
 		FDC6FBF42005BA9300DADE06 /* NSObject+MTExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+MTExt.h"; sourceTree = "<group>"; };
 		FDC6FBF52005BA9300DADE06 /* NSObject+MTExt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MTExt.m"; sourceTree = "<group>"; };
-		FDC6FBF92005BB1700DADE06 /* NSString+MtExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+MtExt.h"; sourceTree = "<group>"; };
-		FDC6FBFA2005BB1700DADE06 /* NSString+MtExt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+MtExt.m"; sourceTree = "<group>"; };
+		FDC6FBF92005BB1700DADE06 /* NSString+MTExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+MTExt.h"; sourceTree = "<group>"; };
+		FDC6FBFA2005BB1700DADE06 /* NSString+MTExt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+MTExt.m"; sourceTree = "<group>"; };
 		FDC6FBFD2005BFA500DADE06 /* NSString+MTExtFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+MTExtFrame.h"; sourceTree = "<group>"; };
 		FDC6FBFE2005BFA500DADE06 /* NSString+MTExtFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+MTExtFrame.m"; sourceTree = "<group>"; };
 		FDC6FC012005C08400DADE06 /* NSString+MTExtHash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+MTExtHash.h"; sourceTree = "<group>"; };
@@ -770,8 +770,8 @@
 		FDC6FBF82005BAFF00DADE06 /* NSString */ = {
 			isa = PBXGroup;
 			children = (
-				FDC6FBF92005BB1700DADE06 /* NSString+MtExt.h */,
-				FDC6FBFA2005BB1700DADE06 /* NSString+MtExt.m */,
+				FDC6FBF92005BB1700DADE06 /* NSString+MTExt.h */,
+				FDC6FBFA2005BB1700DADE06 /* NSString+MTExt.m */,
 				FDC6FBFD2005BFA500DADE06 /* NSString+MTExtFrame.h */,
 				FDC6FBFE2005BFA500DADE06 /* NSString+MTExtFrame.m */,
 				FDC6FC012005C08400DADE06 /* NSString+MTExtHash.h */,
@@ -936,7 +936,7 @@
 				FDC6FBEA2005B6FD00DADE06 /* NSNumber+MTExt.h in Headers */,
 				4C09206F20205367003A43EC /* MT_ComponetHeader.h in Headers */,
 				4C09205F20204A36003A43EC /* MTBannerFooter.h in Headers */,
-				FDC6FBFB2005BB1700DADE06 /* NSString+MtExt.h in Headers */,
+				FDC6FBFB2005BB1700DADE06 /* NSString+MTExt.h in Headers */,
 				4C782C59200F46BB00DBE3C2 /* UIButton+MTExtCountDown.h in Headers */,
 				4CB45905203E66BA00CA8D38 /* MTAPIClient.h in Headers */,
 				4C782C0B200F38E800DBE3C2 /* UITextView+MTExt.h in Headers */,
@@ -1045,7 +1045,7 @@
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1059,7 +1059,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDC6FBFC2005BB1700DADE06 /* NSString+MtExt.m in Sources */,
+				FDC6FBFC2005BB1700DADE06 /* NSString+MTExt.m in Sources */,
 				FDC6FBF72005BA9300DADE06 /* NSObject+MTExt.m in Sources */,
 				4C782C51200F45C400DBE3C2 /* UIColor+MTExt.m in Sources */,
 				FDC6FC042005C08400DADE06 /* NSString+MTExtHash.m in Sources */,

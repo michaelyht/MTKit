@@ -329,7 +329,11 @@
     NSComparisonResult compare = [[UIDevice currentDevice].systemVersion compare:@"10.0"];
     if (compare == NSOrderedDescending || compare == NSOrderedSame) {
         /// 大于等于10.0系统使用此openURL方法
-        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:str] options:@{} completionHandler:nil];
+        if (@available(iOS 10.0, *)) {
+            [[UIApplication sharedApplication] openURL:[NSURL URLWithString:str] options:@{} completionHandler:nil];
+        } else {
+            // Fallback on earlier versions
+        }
     } else {
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wdeprecated-declarations"
@@ -454,7 +458,11 @@
     NSComparisonResult compare = [[UIDevice currentDevice].systemVersion compare:@"10.0"];
     if (compare == NSOrderedDescending || compare == NSOrderedSame) {
         /// 大于等于10.0系统使用此openURL方法
-        [[UIApplication sharedApplication] openURL:jumpUrl options:@{} completionHandler:nil];
+        if (@available(iOS 10.0, *)) {
+            [[UIApplication sharedApplication] openURL:jumpUrl options:@{} completionHandler:nil];
+        } else {
+            // Fallback on earlier versions
+        }
     } else {
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wdeprecated-declarations"

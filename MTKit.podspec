@@ -3,10 +3,10 @@ Pod::Spec.new do |s|
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   s.name         = "MTKit"
-  s.version      = "0.0.11"
+  s.version      = "0.0.12"
   s.summary      = "MTKit is ios HT Project"
   s.description  = <<-DESC
-             为MTExtBGColor 添加overlay属性
+            update AFNetworking  3.2.0 (was 3.1.0), update SVProgressHUD 2.2.5 (was 2.1.2)
                    DESC
 
   s.homepage     = "https://github.com/michaelyht/MTKit"

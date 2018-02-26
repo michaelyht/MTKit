@@ -6,7 +6,7 @@
 //  Copyright © 2018年 michaelyu. All rights reserved.
 //
 
-#import "NSString+MtExt.h"
+#import "NSString+MTExt.h"
 #import <CommonCrypto/CommonDigest.h>
 #import "NSNumber+MTExt.h"
 //#import "NSString+mtExt2Vertify.h"
@@ -282,7 +282,7 @@
 
 /**
  Escape commmon HTML to Entity.
- Example: "a<b" will be escape to "a&lt;b".
+ Example: "a < b" will be escape to "a&lt;b".
  */
 - (NSString *)mt_stringByEscapingHTML {
     NSUInteger len = self.length;
