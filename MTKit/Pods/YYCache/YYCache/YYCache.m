@@ -77,6 +77,8 @@
     return object;
 }
 
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wimplicit-retain-self"
 - (void)objectForKey:(NSString *)key withBlock:(void (^)(NSString *key, id<NSCoding> object))block {
     if (!block) return;
     id<NSCoding> object = [_memoryCache objectForKey:key];
@@ -93,6 +95,7 @@
         }];
     }
 }
+#pragma clang diagnostic pop
 
 - (void)setObject:(id<NSCoding>)object forKey:(NSString *)key {
     [_memoryCache setObject:object forKey:key];

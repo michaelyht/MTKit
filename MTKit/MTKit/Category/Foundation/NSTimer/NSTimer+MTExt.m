@@ -8,6 +8,11 @@
 
 #import "NSTimer+MTExt.h"
 
+
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wstrict-prototypes"
+
+
 @implementation NSTimer (MTExt)
 
 /**
@@ -51,6 +56,7 @@
     return ret;
 }
 
+
 /**
  *  暂停NSTimer
  */
@@ -93,3 +99,5 @@
 }
 
 @end
+
+#pragma clang diagnostic pop

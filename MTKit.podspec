@@ -3,12 +3,13 @@ Pod::Spec.new do |s|
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   s.name         = "MTKit"
-  s.version      = "0.0.14"
+  s.version      = "0.0.15"
   s.summary      = "MTKit is ios HT Project"
   s.description  = <<-DESC
-            update AFNetworking  3.2.1 (was 3.2.0)
+            update AFNetworking  3.2.1 (was 3.2.1)
             update MTAlertUtil -  deprecated UIAlertView、UIActionSheet
             update NSTimer+MTExt - block 'copy' reusing
+            A series of warnings were handled
                    DESC
 
   s.homepage     = "https://github.com/michaelyht/MTKit"
@@ -178,7 +179,7 @@ Pod::Spec.new do |s|
         end
         ss.subspec 'AppInfoUtil' do |sss|
             sss.source_files = 'MTKit/MTKit/Utils/AppInfoUtil/*'
-            sss.dependency 'AFNetworking', '~> 3.2.0'
+            sss.dependency 'AFNetworking', '~> 3.2.1'
         end
         ss.subspec 'MTQRCodeUtil' do |sss|
             sss.source_files = 'MTKit/MTKit/Utils/MTQRCodeUtil/*'
@@ -194,7 +195,7 @@ Pod::Spec.new do |s|
     end
 
     s.subspec 'Core' do |ss|
-        ss.dependency 'AFNetworking', '~> 3.2.0'
+        ss.dependency 'AFNetworking', '~> 3.2.1'
         ss.subspec 'Action' do |sss|
 
             sss.subspec 'Reachability' do |ssss|

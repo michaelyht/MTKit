@@ -11,6 +11,8 @@
 
 @interface NSTimer (MTExt)
 
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wstrict-prototypes"
 /**
  *  开启一个当前线程内可重复执行的NSTimer对象
  *
@@ -35,6 +37,7 @@
 + (id)mt_timerWithTimeInterval:(NSTimeInterval)inTimeInterval
                          block:(void (^)())inBlock
                        repeats:(BOOL)inRepeats;
+#pragma clang diagnostic pop
 /**
  *  暂停NSTimer
  */

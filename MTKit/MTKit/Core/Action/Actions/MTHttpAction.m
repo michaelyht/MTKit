@@ -155,6 +155,8 @@ static NSString *MTCacheName = @"MTAPICache";
     [self httpByUrlString:URLString methodType:Http_Get parameters:parameters isShowHUD:NO result:requestBlock];
 }
 
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wimplicit-retain-self"
 /**
  获取html代码
  
@@ -178,6 +180,7 @@ static NSString *MTCacheName = @"MTAPICache";
         [self failResponseError:error result:requestBlock isShowHUD:NO];
     }];
 }
+#pragma clang diagnostic pop
 
 #pragma mark - 新增访问三方接口，直接返回所有返回值。
 
