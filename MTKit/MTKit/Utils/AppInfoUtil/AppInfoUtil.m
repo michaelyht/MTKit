@@ -148,9 +148,18 @@
 + (BOOL)isOpenAccessToAddressBook {
     BOOL hasAccess = NO;
 #if __IPHONE_9_0
-    if ([CNContactStore authorizationStatusForEntityType:CNEntityTypeContacts]==CNAuthorizationStatusAuthorized) {
-        hasAccess=YES;
-        
+    if (@available(iOS 9.0, *)) {
+        if (@available(iOS 9.0, *)) {
+            if ([CNContactStore authorizationStatusForEntityType:CNEntityTypeContacts]==CNAuthorizationStatusAuthorized) {
+                hasAccess=YES;
+            } else {
+                // Fallback on earlier versions
+            }
+            
+            
+        }
+    } else {
+        // Fallback on earlier versions
     }
 #else
     switch (ABAddressBookGetAuthorizationStatus())
