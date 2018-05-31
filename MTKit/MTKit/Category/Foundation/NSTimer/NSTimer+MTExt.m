@@ -23,7 +23,6 @@
                                   block:(void (^)())inBlock
                                 repeats:(BOOL)inRepeats {
     void (^block)() = [inBlock copy];
-    block = [inBlock copy];
     id ret = [self scheduledTimerWithTimeInterval:inTimeInterval
                                            target:self
                                          selector:@selector(mt_ExecuteSimpleBlock:)

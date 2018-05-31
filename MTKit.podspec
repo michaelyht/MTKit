@@ -3,10 +3,12 @@ Pod::Spec.new do |s|
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   s.name         = "MTKit"
-  s.version      = "0.0.13"
+  s.version      = "0.0.14"
   s.summary      = "MTKit is ios HT Project"
   s.description  = <<-DESC
-            update AFNetworking  3.2.0 (was 3.1.0), update SVProgressHUD 2.2.5 (was 2.1.2)
+            update AFNetworking  3.2.1 (was 3.2.0)
+            update MTAlertUtil -  deprecated UIAlertView、UIActionSheet
+            update NSTimer+MTExt - block 'copy' reusing
                    DESC
 
   s.homepage     = "https://github.com/michaelyht/MTKit"
