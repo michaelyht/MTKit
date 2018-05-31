@@ -333,6 +333,8 @@ static void _YYDiskCacheSetGlobal(YYDiskCache *cache) {
     });
 }
 
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wimplicit-retain-self"
 - (void)removeAllObjectsWithProgressBlock:(void(^)(int removedCount, int totalCount))progress
                                  endBlock:(void(^)(BOOL error))end {
     __weak typeof(self) _self = self;
@@ -347,6 +349,7 @@ static void _YYDiskCacheSetGlobal(YYDiskCache *cache) {
         Unlock();
     });
 }
+#pragma clang diagnostic pop
 
 - (NSInteger)totalCount {
     Lock();
