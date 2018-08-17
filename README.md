@@ -1,13 +1,6 @@
 # MTKit
 Common development library
 
-<<<<<<< HEAD
-2018.8.17
-add MTLogUtil
-
-USSE:
-在AppDelegate里面[MTLogUtil logOpen];当然基本的宏定义还是需要配置的CONSOLE_LOG_ON、FILE_LOG_ON
-=======
 pod：
 
 pod 'MTKit', :git => "https://github.com/michaelyht/MTKit", :branch => 'master'
@@ -19,4 +12,13 @@ remark：
 使用该框架，需下载https://github.com/michaelyht/MTConfig.git
 两个配置文件，进行网络层key值和签名的配置信息。（MT_Config.plist, MT_Signature.plist）两个文件.
 	MT_Config.plist
->>>>>>> 4ce1b53a1ac317c0ef51141682799bc27f0612ff
+    
+    
+    
+    2018.8.17
+    add MTLogUtil
+    
+    USSE:
+    在AppDelegate里面[MTLogUtil logOpen];当然基本的宏定义还是需要配置的CONSOLE_LOG_ON、FILE_LOG_ON
+
+
