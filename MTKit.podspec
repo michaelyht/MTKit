@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
             update MTAlertUtil -  deprecated UIAlertView、UIActionSheet
             update NSTimer+MTExt - block 'copy' reusing
             A series of warnings were handled
+            add MTLogUtil - deprecated CocoaLumberjack
                    DESC
 
   s.homepage     = "https://github.com/michaelyht/MTKit"
