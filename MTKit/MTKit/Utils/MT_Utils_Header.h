@@ -15,5 +15,6 @@
 #import "MTQRCodeUtil.h"
 #import "MTDataSource.h"
 #import "MTProgressHUD.h"
+#import "MTLogUtil.h"
 
 #endif /* MT_Utils_Header_h */

@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   s.name         = "MTKit"
-  s.version      = "0.0.15"
+  s.version      = "0.1.0"
   s.summary      = "MTKit is ios HT Project"
   s.description  = <<-DESC
             update AFNetworking  3.2.1 (was 3.2.1)
@@ -169,6 +169,10 @@ Pod::Spec.new do |s|
     s.subspec 'Utils' do |ss|
         ss.source_files = 'MTKit/MTKit/Utils/MT_Utils_Header.h'
         ss.dependency 'MTKit/Macros'
+        ss.subspec 'MTLogUtil' do |sss|
+        	sss.dependency 'CocoaLumberjack', '~> 3.4.2'
+            sss.source_files = 'MTKit/MTKit/Utils/MTLogUtil/*'
+        end
         ss.subspec 'MTAlertUtil' do |sss|
             sss.source_files = 'MTKit/MTKit/Utils/MTAlertUtil/*'
             sss.dependency 'MTKit/Category/Foundation/NSString'

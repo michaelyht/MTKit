@@ -14,25 +14,34 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
+  - CocoaLumberjack (3.4.2):
+    - CocoaLumberjack/Default (= 3.4.2)
+    - CocoaLumberjack/Extensions (= 3.4.2)
+  - CocoaLumberjack/Default (3.4.2)
+  - CocoaLumberjack/Extensions (3.4.2):
+    - CocoaLumberjack/Default
   - SVProgressHUD (2.2.5)
   - YYCache (1.0.4)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.2.1)
+  - CocoaLumberjack
   - SVProgressHUD (~> 2.2.5)
   - YYCache (~> 1.0.4)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
+    - CocoaLumberjack
     - SVProgressHUD
     - YYCache
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  CocoaLumberjack: db7cc9e464771f12054c22ff6947c5a58d43a0fd
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
 
-PODFILE CHECKSUM: ee32cb47d4a5152237aa1d72c703444e31c45f77
+PODFILE CHECKSUM: be4759b7846f95eb9a229dc7c8f248145bc81f72
 
 COCOAPODS: 1.5.3

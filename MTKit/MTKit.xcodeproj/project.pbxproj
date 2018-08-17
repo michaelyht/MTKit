@@ -77,6 +77,8 @@
 		4C782C70200F498C00DBE3C2 /* UIApplication+MTExt.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C782C6E200F498C00DBE3C2 /* UIApplication+MTExt.h */; };
 		4C782C71200F498C00DBE3C2 /* UIApplication+MTExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C782C6F200F498C00DBE3C2 /* UIApplication+MTExt.m */; };
 		4C782C78200F4B0900DBE3C2 /* YYCategoriesMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C782C77200F4B0900DBE3C2 /* YYCategoriesMacro.h */; };
+		4C85045C21266FEE00F247AD /* MTLogUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C85045A21266FEE00F247AD /* MTLogUtil.h */; };
+		4C85045D21266FEE00F247AD /* MTLogUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C85045B21266FEE00F247AD /* MTLogUtil.m */; };
 		4CB458CE203E4EAF00CA8D38 /* UserInfoUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CB458CC203E4EAF00CA8D38 /* UserInfoUtil.h */; };
 		4CB458CF203E4EAF00CA8D38 /* UserInfoUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB458CD203E4EAF00CA8D38 /* UserInfoUtil.m */; };
 		4CB458D3203E530100CA8D38 /* MTDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CB458D1203E530100CA8D38 /* MTDataSource.h */; };
@@ -210,6 +212,8 @@
 		4C782C76200F49FA00DBE3C2 /* MT_UIKitHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MT_UIKitHeader.h; sourceTree = "<group>"; };
 		4C782C77200F4B0900DBE3C2 /* YYCategoriesMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYCategoriesMacro.h; sourceTree = "<group>"; };
 		4C782C79200F4B3400DBE3C2 /* MT_CategoryHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MT_CategoryHeader.h; sourceTree = "<group>"; };
+		4C85045A21266FEE00F247AD /* MTLogUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTLogUtil.h; sourceTree = "<group>"; };
+		4C85045B21266FEE00F247AD /* MTLogUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTLogUtil.m; sourceTree = "<group>"; };
 		4CB458CC203E4EAF00CA8D38 /* UserInfoUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserInfoUtil.h; sourceTree = "<group>"; };
 		4CB458CD203E4EAF00CA8D38 /* UserInfoUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserInfoUtil.m; sourceTree = "<group>"; };
 		4CB458D1203E530100CA8D38 /* MTDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTDataSource.h; sourceTree = "<group>"; };
@@ -337,6 +341,7 @@
 			isa = PBXGroup;
 			children = (
 				4CB458E9203E5B1400CA8D38 /* MT_Utils_Header.h */,
+				4C85045921266FBE00F247AD /* MTLogUtil */,
 				4CEE1B37204008E600F96185 /* MTQRCodeUtil */,
 				4CB458E4203E59B700CA8D38 /* AppInfoUtil */,
 				4CB458DF203E579700CA8D38 /* MTAlertUtil */,
@@ -599,6 +604,15 @@
 				4C782C6F200F498C00DBE3C2 /* UIApplication+MTExt.m */,
 			);
 			path = UIApplication;
+			sourceTree = "<group>";
+		};
+		4C85045921266FBE00F247AD /* MTLogUtil */ = {
+			isa = PBXGroup;
+			children = (
+				4C85045A21266FEE00F247AD /* MTLogUtil.h */,
+				4C85045B21266FEE00F247AD /* MTLogUtil.m */,
+			);
+			path = MTLogUtil;
 			sourceTree = "<group>";
 		};
 		4CB458D0203E52C400CA8D38 /* MTTableViewUtil */ = {
@@ -911,6 +925,7 @@
 				4C09206820204F46003A43EC /* MTQRCode.h in Headers */,
 				4C782BF8200F362900DBE3C2 /* UILabel+MTExt.h in Headers */,
 				FDC6FC072005C13200DADE06 /* NSString+MTExtVertify.h in Headers */,
+				4C85045C21266FEE00F247AD /* MTLogUtil.h in Headers */,
 				FDF0DA312004C62300E53015 /* NSData+MTExt.h in Headers */,
 				4CB4590D203E66E400CA8D38 /* MTHttpAction.h in Headers */,
 				FDC6FBDC2005B13800DADE06 /* NSDate+MTExtInternetDate.h in Headers */,
@@ -1092,6 +1107,7 @@
 				4C782C38200F433300DBE3C2 /* UIImage+MTExtEffect.m in Sources */,
 				FDC6FBE22005B56000DADE06 /* NSDictionary+MTExt.m in Sources */,
 				FDC6FBEB2005B6FD00DADE06 /* NSNumber+MTExt.m in Sources */,
+				4C85045D21266FEE00F247AD /* MTLogUtil.m in Sources */,
 				4CB45916203E6B8A00CA8D38 /* BaseService.m in Sources */,
 				4CB45906203E66BA00CA8D38 /* MTAPIClient.m in Sources */,
 				4C782C33200F42DD00DBE3C2 /* YYCGUtilities.m in Sources */,

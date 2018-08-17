@@ -27,7 +27,7 @@
 + (void)showBlankInfoTips:(NSString *)tips {
     [SVProgressHUD setDefaultMaskType:SVProgressHUDMaskTypeClear];
     [SVProgressHUD setDefaultStyle:SVProgressHUDStyleLight];
-    [SVProgressHUD setInfoImage:nil];
+//    [SVProgressHUD setInfoImage:nil];
     [SVProgressHUD showInfoWithStatus:tips];
     [SVProgressHUD dismissWithDelay:MTPGS_DISS_SECOND];
 }
